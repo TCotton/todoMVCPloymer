@@ -1,7 +1,7 @@
-(function (window) {
+(function (window, APP) {
 	'use strict';
 
-	window.addEventListener('load', () => {
+	window.addEventListener('WebComponentsReady', () => {
 
 		if (window.location.origin !== 'https://tcotton.github.io') {
 
@@ -18,4 +18,4 @@
 
 	// Your starting point. Enjoy the ride!
 
-})(window);
+})(window, APP);
